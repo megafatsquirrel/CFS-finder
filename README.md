@@ -1,5 +1,6 @@
 #CFS Finder
-I love chicken fried steak. This is a tool to help me keep up with my urges.
+* https://chickenfriedsteakfinder.org/
+* I love chicken fried steak. This is a tool to help me keep up with my urges.
 
 ## Setup
 
