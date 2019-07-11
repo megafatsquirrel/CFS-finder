@@ -7,7 +7,7 @@
 Get Zomato API key
 
 ```bash
-yarn install
-yarn serve
+npm install
+npm run serve
 ```
 
