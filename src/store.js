@@ -1,6 +1,5 @@
 import Vue from "vue";
 import Vuex from 'vuex';
-import { config } from './config';
 
 export function createStore() {
     return new Vuex.Store({
@@ -10,7 +9,7 @@ export function createStore() {
             cityId: '',
             cuisineId: '',
             baseURL: 'https://developers.zomato.com/api/v2.1/',
-            config: {headers: {'user-key': config().API_KEY}}
+            config: {headers: {'user-key': process.env.VUE_APP_API_KEY}}
         },
         mutations: {
             setLocation (state, data) {
